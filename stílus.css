@@ -1,0 +1,87 @@
+                            /* NavBar */
+body {
+    margin: 0;
+    padding: 0;
+}
+li img {
+    width: 50px;
+    float: left;
+    padding-left: 10%;
+    margin: 12px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#333333;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+}
+li a {
+    display: block;
+    font-size: 2em;
+    font-family: 'Architects Daughter', courier;
+    color:#ff0099;
+    float: right;
+    margin: 15px 15px;
+}
+.positioning {
+    padding-right: 10%
+}
+li a:hover {
+    color:#ff000070
+}
+
+                            /* Divek */
+.content {
+    background-image: url(assets/háttérkép.png);
+    font-family: 'Architects Daughter', courier;
+    height: max-content;
+}
+.contentText {
+    width: 80%;
+    margin: 0 auto;
+}
+
+                            /* Tartalmak */
+ h1 {
+     font-size: 5em;
+     padding-top: 80px;
+    } 
+ h2 {
+     font-size: 3em;
+     color:#ff0099;
+    }
+.aboutMe {
+    font-size: 2em
+}
+.separator {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+}
+.title {
+    font-size: 4em;
+    text-align: center;
+    font-weight: bolder;
+}
+.header {
+    font-size: 2.5em;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.text {
+    font-size: 1.7em;
+}
+
+                            /* Linkek */
+.link {
+    font-size: 25px;
+    font-family: 'Architects Daughter', courier;
+    color:#ff0099;
+}
+.link:hover {
+    color:#ff000070
+}
